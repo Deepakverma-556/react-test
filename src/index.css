@@ -1,0 +1,196 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Avantt', sans-serif;
+}
+
+@font-face {
+  font-family: "Avantt";
+  src: url("../src/assets/fonts/Avantt-SemiBold.otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Avantt";
+  src: url("../src/assets//fonts/Avantt-Regular.otf");
+  font-weight: 400;
+}
+
+p {
+  margin: 0 !important;
+}
+
+.custom-container {
+  max-width: 1160px !important;
+}
+
+.bg-light-purple {
+  background-color: #362B4F;
+}
+
+.bg-dark-purple {
+  background-color: #191423;
+}
+
+.px-26 {
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.max-w-437 {
+  max-width: 437px;
+}
+
+.h-128 {
+  height: 128.27px;
+}
+
+.text-3xl {
+  font-size: 46px;
+}
+
+.lh-60 {
+  line-height: 60px;
+}
+
+.grid-container {
+  display: grid;
+  gap: 4px;
+}
+
+.grid-item-1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.grid-item-2 {
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+
+.grid-item-3 {
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+
+.grid-item-4 {
+  grid-column: 5/7;
+  grid-row: 1/2;
+}
+
+.grid-item-5 {
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+
+.grid-item-6 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.grid-item-7 {
+  grid-column: 4/6;
+  grid-row: 2/3;
+}
+
+.grid-item-8 {
+  grid-column: 6/7;
+  grid-row: 2/3;
+}
+
+.grid-item-9 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.grid-item-10 {
+  grid-column: 2/4;
+  grid-row: 3/4;
+}
+
+.grid-item-11 {
+  grid-column: 4/5;
+  grid-row: 3/4;
+}
+
+.grid-item-12 {
+  grid-column: 5/7;
+  grid-row: 3/4;
+}
+
+@media (max-width:700px) {
+  .grid-item-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .grid-item-2 {
+    grid-column: 2/4;
+    grid-row: 1/2;
+  }
+
+  .grid-item-3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .grid-item-4 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+
+  .grid-item-5 {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+
+  .grid-item-6 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
+
+  .grid-item-7 {
+    grid-column: 1/3;
+    grid-row: 4/5;
+  }
+
+  .grid-item-8 {
+    grid-column: 3/4;
+    grid-row: 4/5;
+  }
+
+  .grid-item-9 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+
+  .grid-item-10 {
+    grid-column: 2/4;
+    grid-row: 5/6;
+  }
+
+  .grid-item-11 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+
+  .grid-item-12 {
+    grid-column: 2/4;
+    grid-row: 6/7;
+  }
+
+  .pb-8{
+    padding-bottom: 8px;
+  }
+}
+
+@media (min-width:770px) {
+  
+}
