@@ -1,11 +1,17 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Production from './components/Production';
+import Home from './view/Home';
+import MyCard from './components/MyCard';
+
 
 function App() {
   return (
-    <>
-      <Production/>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/card' element={<MyCard />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

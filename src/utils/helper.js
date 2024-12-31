@@ -10,6 +10,7 @@ import gridNine from "../assets/images/grid-img-9.png"
 import gridTen from "../assets/images/grid-img-10.png"
 import gridEleven from "../assets/images/grid-img-11.png"
 import gridTwelve from "../assets/images/grid-img-12.png"
+import { Right, Wrong } from "./icons"
 
 export const GRID_LIST = [
     {
@@ -71,5 +72,66 @@ export const GRID_LIST = [
         myClass: "grid-item-12",
         image: gridTwelve,
         imageAlt: "grid-img-12"
+    },
+]
+
+export const COMPETITION_LIST = [
+
+    {
+        service: "Mobile App",
+        rift: <Wrong />,
+        taxscouts: <Wrong />,
+        coconut: <Right />,
+        pie: <Right />,
+    },
+    {
+        service: "Invoicing",
+        rift: <Wrong />,
+        taxscouts: <Wrong />,
+        coconut: <Right />,
+        pie: <Right />,
+    },
+    {
+        service: "Bookkeeping",
+        rift: <Wrong />,
+        taxscouts: <Wrong />,
+        coconut: <Right />,
+        pie: <Right />,
+    },
+    {
+        service: "Accountacy support",
+        rift: <Wrong />,
+        taxscouts: <Wrong />,
+        coconut: <Right />,
+        pie: <Right />,
+    },
+    {
+        service: "Tax Filing",
+        rift: <Wrong />,
+        taxscouts: <Wrong />,
+        coconut: <Right />,
+        pie: <Right />,
+    },
+    {
+        service: "Fee",
+        rift: "Est: £300 per year",
+        taxscouts: "£300 per year",
+        coconut: "£9.00 p/m £108 per year",
+        pie: "£6.99 or £9.99p/m £59.99 review fee £143.87 per year",
+    },
+]
+
+export const CARD_LIST = [
+    {
+        title: "what is computer",
+        description: "A computer is a machine that can store and process information. Most computers rely on a binary system, which uses two variables, 0 and 1, to complete tasks such as storing data, calculating algorithms, and displaying information."
+    },
+    {
+        title: "what is cpu",
+        description: "A computer is a machine that can store and process information. Most computers rely on a binary system, which uses two variables, 0 and 1, to complete tasks such as storing data, calculating algorithms, and displaying information."
+    },
+    {
+        title: "what is code",
+        description: "A computer is a machine that can store and process information. Most computers rely on a binary system, which uses two variables, 0 and 1, to complete tasks such as storing data, calculating algorithms, and displaying information."
     },
 ]

@@ -15,7 +15,7 @@ const Production = () => {
                         <p className='fs-6 lh-base pb-2'>Once we establish the ourself in the UK, we plan to expand into other territories to take advantage of the £500 billion global market</p>
                         <p className='fs-6 lh-base'>We have highlighted some of our key features that will be the cornerstone of our product launch in April 23.</p>
                     </div>
-                    <div className='bg-light-purple px-26 d-flex align-items-center justify-content-center py-3 rounded-3'>
+                    <div className='bg-light-purple px-26 d-flex align-items-center justify-content-center py-3 rounded-3 '>
                         <div className='grid-container'>
                             {GRID_LIST.map((obj, i) => (
                                 <div key={i} className={`${obj.myClass}`}>
