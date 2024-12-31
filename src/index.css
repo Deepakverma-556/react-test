@@ -43,18 +43,24 @@ p {
   background-color: #56E3CB;
 }
 
+.py-18 {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
 .px-26 {
   padding-left: 26px;
   padding-right: 26px;
 }
 
+.table-custom {
+  border-collapse: initial !important;
+  border-spacing: 10px 0 !important;
+}
+
 .px-37 {
   padding-left: 37px;
   padding-right: 37px;
-}
-.px-31 {
-  padding-left: 31.50px;
-  padding-right: 31.50px;
 }
 
 .px-15 {
@@ -70,13 +76,26 @@ p {
   padding-top: 27px;
 }
 
+.pr-61 {
+  padding-right: 61px;
+}
+
 .max-w-437 {
   max-width: 437px;
 }
 
-.max-w-1177 {
-  max-width: 1177px;
+.max-w-481 {
+  max-width: 481px;
 }
+
+.max-w-580 {
+  max-width: 580px;
+}
+
+.max-w-1177 {
+  max-width: 1177px !important;
+}
+
 .max-w-48 {
   max-width: 48px;
 }
@@ -89,8 +108,20 @@ p {
   font-size: 46px;
 }
 
+.text-sm {
+  font-size: 14px;
+}
+
+.text-12 {
+  font-size: 12px;
+}
+
 .text-xsm {
   font-size: 8px;
+}
+
+.overflow-table {
+    overflow-x: auto;
 }
 
 .lh-60 {
@@ -223,9 +254,17 @@ p {
     grid-row: 6/7;
   }
 
+  .w-full{
+    width: 100%;
+  }
+
   .pb-8 {
     padding-bottom: 8px;
   }
 }
 
-@media (min-width:770px) {}
+@media (min-width:992px) {
+  .gap-78 {
+      gap: 78px;
+    }
+}

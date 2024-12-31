@@ -5,10 +5,10 @@ import { GRID_LIST } from '../utils/helper';
 
 const Production = () => {
     return (
-        <div className='bg-dark-purple min-vh-100 d-flex align-items-center'>
+        <div className='bg-dark-purple min-vh-100 d-flex align-items-center pt-3'>
             <div className='container custom-container  '>
                 <div className='d-flex flex-xl-row gap-3 flex-column '>
-                    <div className='bg-light-purple text-white py-3 px-26 xl-max-w-437 rounded-3'>
+                    <div className='bg-light-purple text-white py-3 px-26 xl-max-w-437 rounded-3 '>
                         <h1 className='m-0 pb-50 pb-8 fw-semibold lh-60 text-3xl'>Product</h1>
                         <p className='fs-6 lh-base'>Due to the confusing nature of tax, the lack of awareness of the tax deduction system and the complicated tax refund process, we have experienced exceptional demand from the public for our service. From release in 2015, our original tax product has achieved 60x growth, bringing in over £5m revenue in 2022.</p>
                         <p className='fs-6 lh-base py-2'>With over 8 years of industry experience, we have listened to our clients to evolve our app into a whole-of-market product that will also meet the needs of the tax return market as well as the tax refund market. The App is packed with all the features users need to meet the requirements of the upcoming switch to Making Tax Digital.</p>

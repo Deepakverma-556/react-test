@@ -4,7 +4,7 @@ import { CARD_LIST } from '../utils/helper'
 
 const MyCard = () => {
     const navigate = useNavigate()
-    const [open, setOpen] = useState()
+    const [, setOpen] = useState()
     const clickHandler = (i) => {
         const formattedDomain = i.replace(/\s+/g, '-');
         navigate(`?value=${formattedDomain}`)
