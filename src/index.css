@@ -121,7 +121,7 @@ p {
 }
 
 .overflow-table {
-    overflow-x: auto;
+  overflow-x: auto;
 }
 
 .lh-60 {
@@ -254,7 +254,7 @@ p {
     grid-row: 6/7;
   }
 
-  .w-full{
+  .w-full {
     width: 100%;
   }
 
@@ -265,6 +265,6 @@ p {
 
 @media (min-width:992px) {
   .gap-78 {
-      gap: 78px;
-    }
+    gap: 78px;
+  }
 }

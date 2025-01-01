@@ -25,12 +25,12 @@ const Competition = () => {
                                         <th className=" px-37 pt-27 pb-3 text-center bg-dark-aqua table-heading rounded-top text-12 fw-sembold">Pie</th>
                                     </tr>
                                     {COMPETITION_LIST.map((obj, i) => (
-                                        <tr key={i} className='!border-top !border-black'>
-                                            <td className='py-18 pr-61 text-white text-sm fw-normal lh-sm'>{obj.service}</td>
-                                            <td className={`py-18 px-26 text-xsm text-center bg-white ${i === 5 ? "rounded-bottom" : ""} `}>{obj.rift}</td>
-                                            <td className={`py-18 px-3 text-xsm text-center bg-white mx-7 table-custom ${i === 5 ? "rounded-bottom" : ""}`}>{obj.taxscouts}</td>
-                                            <td className={`py-18 px-3 text-xsm text-center bg-white ${i === 5 ? "rounded-bottom" : ""}`}>{obj.coconut}</td>
-                                            <td className={`py-18 px-2 text-xsm text-center bg-dark-aqua mx-7 ${i === 5 ? "rounded-bottom" : ""}`}>{obj.pie}</td>
+                                        <tr key={i} className='border-top border-black'>
+                                            <td className='py-18 pr-61 text-white text-sm fw-normal lh-sm border-top border-black'>{obj.service}</td>
+                                            <td className={`py-18 px-26 text-xsm text-center bg-white border-top border-black ${i === 5 ? "rounded-bottom" : ""} `}>{obj.rift}</td>
+                                            <td className={`py-18 px-3 text-xsm text-center bg-white mx-7 table-custom border-top border-black ${i === 5 ? "rounded-bottom" : ""}`}>{obj.taxscouts}</td>
+                                            <td className={`py-18 px-3 text-xsm text-center bg-white border-top border-black ${i === 5 ? "rounded-bottom" : ""}`}>{obj.coconut}</td>
+                                            <td className={`py-18 px-2 text-xsm text-center bg-dark-aqua mx-7 border-top border-black ${i === 5 ? "rounded-bottom" : ""}`}>{obj.pie}</td>
                                         </tr>
                                     ))}
                                 </tbody>
