@@ -24,9 +24,9 @@ const MyFunctions = () => {
     return (
         <div className='p-5 d-flex flex-column align-items-center justify-content-center'>
             <div className='text-center'>
-                <h2 className='text-center'>On click increament and decreament</h2>
-                <button className='p-2 me-3 ' onClick={() => setMyNumber(myNumber + 1)}>Increament</button>
-                <button className='p-2 ' onClick={() => setMyNumber(myNumber - 1)}>decreament</button>
+                <h2 className='text-center'>On click increment and decrement</h2>
+                <button className='p-2 me-3' onClick={() => setMyNumber(myNumber + 1)}>Increment</button>
+                <button className='p-2' onClick={() => setMyNumber(myNumber - 1)}>decrement</button>
                 <p className='text-center pt-3'>{myNumber}</p>
             </div>
             <div className='pt-4'>

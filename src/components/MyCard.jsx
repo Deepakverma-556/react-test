@@ -11,12 +11,12 @@ const MyCard = () => {
         setOpen(i)
     }
     return (
-        <div className='d-flex py-4 px-4 gap-3'>
+        <div className='d-flex p-4 gap-3'>
             <div className='container'>
                 <div className='d-flex flex-wrap'>
                     {CARD_LIST.map((obj, i) => (
                         <div key={i} className=' col-12 col-md-6 col-lg-4 px-3 pt-3'>
-                            <div onClick={() => clickHandler(obj.title)} className='p-3 border border-black pe-auto'>
+                            <div onClick={() => clickHandler(obj.title)} className='p-3 border border-black cursor-pointer  '>
                                 <h2 className='fw-semibold fs-5'>{obj.title}</h2>
                                 <p>{obj.description}</p>
                             </div>

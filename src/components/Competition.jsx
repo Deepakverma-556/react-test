@@ -3,8 +3,8 @@ import { COMPETITION_LIST } from '../utils/helper'
 
 const Competition = () => {
     return (
-        <div className='d-flex align-items-center justify-content-center bg-dark-purple py-5'>
-            <div className='max-w-1177 container'>
+        <div className='d-flex align-items-center justify-content-center bg-dark-purple py-5 min-h-screen'>
+            <div className='max-w-1177 container px-3'>
                 <div className='d-flex align-items-center flex-column flex-lg-row gap-78 gap-md-5 gap-4'>
                     <div className='text-white px-3 '>
                         <h1 className='m-0 pb-50 pb-8 fw-semibold lh-60 text-3xl'>Competition</h1>
@@ -19,14 +19,14 @@ const Competition = () => {
                                 <tbody>
                                     <tr>
                                         <th></th>
-                                        <th className=" px-37 pt-27 pb-3 text-center bg-white table-heading rounded-top text-12 fw-sembold">Rift</th>
-                                        <th className=" px-3 pt-27 pb-3 text-center bg-white table-heading rounded-top text-12 fw-sembold mx-7">Taxscout</th>
-                                        <th className=" pt-27 pb-3 px-3 text-center bg-white table-heading rounded-top text-12 fw-sembold">Coconut</th>
-                                        <th className=" px-37 pt-27 pb-3 text-center bg-dark-aqua table-heading rounded-top text-12 fw-sembold">Pie</th>
+                                        <th className="px-37 pt-27 pb-3 text-center bg-white table-heading rounded-top text-12 fw-sembold">Rift</th>
+                                        <th className="px-3 pt-27 pb-3 text-center bg-white table-heading rounded-top text-12 fw-sembold mx-7">Taxscout</th>
+                                        <th className="pt-27 pb-3 px-3 text-center bg-white table-heading rounded-top text-12 fw-sembold">Coconut</th>
+                                        <th className="px-37 pt-27 pb-3 text-center bg-dark-aqua table-heading rounded-top text-12 fw-sembold">Pie</th>
                                     </tr>
                                     {COMPETITION_LIST.map((obj, i) => (
                                         <tr key={i} className='border-top border-black'>
-                                            <td className='py-18 pr-61 text-white text-sm fw-normal lh-sm border-top border-black'>{obj.service}</td>
+                                            <td className={`py-18 pr-61 text-white text-sm fw-normal lh-sm border-top border-black ${i === 5 ? "pt-0" : ""}`}>{obj.service}</td>
                                             <td className={`py-18 px-26 text-xsm text-center bg-white border-top border-black ${i === 5 ? "rounded-bottom" : ""} `}>{obj.rift}</td>
                                             <td className={`py-18 px-3 text-xsm text-center bg-white mx-7 table-custom border-top border-black ${i === 5 ? "rounded-bottom" : ""}`}>{obj.taxscouts}</td>
                                             <td className={`py-18 px-3 text-xsm text-center bg-white border-top border-black ${i === 5 ? "rounded-bottom" : ""}`}>{obj.coconut}</td>
